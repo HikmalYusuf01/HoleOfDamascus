@@ -1,0 +1,12 @@
+
+myproject/__apache__/*
+
+berita/migrations/*
+berita/__apache__/*
+
+pengguna/migrations/*
+pengguna/__apache__/*
+
+.DS_Store
+
+.env

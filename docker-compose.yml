@@ -1,0 +1,16 @@
+version: '3'
+
+
+services :
+app:
+restart: always
+container_name: holeofdamascus
+environment:
+  - TZ=Asia/Makassar
+build:
+  context: -
+ports:
+  - "8006:8006"
+volumes:
+  - .:/app
+command: gunicorn myproject.wsgi:application --bind 0.0.0.0:8006 --workers 4
