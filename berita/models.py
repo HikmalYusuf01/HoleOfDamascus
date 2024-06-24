@@ -19,7 +19,7 @@ class Artikel(models.Model):
         config_name='special',
         external_plugin_resources=[(
             'youtube',
-            'http://hikmal.my-kelompok2.my.id/static/ckeditor_plugins/youtube/youtube/',
+            'http://hikmalyusuf.my-kelompok2.my.id/static/ckeditor_plugins/youtube/youtube/',
             'plugin.js',
         )],
         blank=True,
