@@ -3,8 +3,12 @@ DEBUG=True
 ALLOWED_HOSTS=.localhost, .my-kelompok2.my.id, .103.175.220.243
 
 DB_ENGINE=django.db.backends.mysql
-DB_NAME=hikmal1
+DB_NAME=hikmal2
 DB_USER=root
 DB_PASSWORD=
 DB_HOST=127.0.0.1
 DB_PORT=3306
+
+ON_SERVER=False
+
+CELERY_URL=
